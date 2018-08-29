@@ -177,12 +177,16 @@ div#page-container {
 	border: 1px solid black;
 	padding: 15px;
 	background: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .services .button {
 	border: 1px solid black;
 	border-radius: 4px;
-	padding: 10px 25px;
+	padding: 10px 35px;
+	margin: 18px 0 0;
 	background: #f9f9f9;
 	text-decoration: none;
 	font-size: 0.8em;
