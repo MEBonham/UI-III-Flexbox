@@ -112,6 +112,7 @@ div#page-container {
 	width: 125px;
 	padding: 3px 0;
 	border: 1px solid black;
+	margin: 10px 0 0;
 	text-align: center;
 	color: black;
 	text-decoration: none;
@@ -173,7 +174,7 @@ div#page-container {
 }
 
 .services .main-block .two-column {
-	margin: 15px 0;
+	margin: 25px 0;
 	border: 1px solid black;
 	padding: 15px;
 	background: #f2f2f2;
@@ -198,7 +199,16 @@ div#page-container {
 	justify-content: space-between;
 }
 
+.services .tail-block .two-column ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.services .tail-block .two-column li {
+	margin: 20px 0;
+}
+
 .services footer p {
 	text-align: center;
-	margin: 30px 0;
+	margin: 50px 0 30px;
 }
