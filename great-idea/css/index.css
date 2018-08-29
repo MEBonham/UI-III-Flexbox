@@ -122,6 +122,11 @@ div#page-container {
 	border-bottom: 6px solid lightgray;
 }
 
+.homepage .middle-img {
+	width: 100%;
+	height: auto;
+}
+
 .main-block {
 	margin: 30px 0;
 	display: flex;
@@ -131,4 +136,65 @@ div#page-container {
 
 .two-column {
 	width: 47%;
+}
+
+.three-column {
+	width: 30%;
+}
+
+.homepage #contact {
+	margin: 20px 0;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.homepage footer p {
+	text-align: center;
+	margin: 0 0 80px 0;
+}
+
+.services-header-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.services h1 {
+	font-size: 24px;
+}
+
+.services #main {
+	border-width: 1px 0 2px;
+	border-style: solid;
+	border-color: black;
+	padding: 15px 0;
+}
+
+.services .main-block .two-column {
+	margin: 15px 0;
+	border: 1px solid black;
+	padding: 15px;
+	background: #f2f2f2;
+}
+
+.services .button {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 10px 25px;
+	background: #f9f9f9;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: black;
+}
+
+.services .tail-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services footer p {
+	text-align: center;
+	margin: 30px 0;
 }
